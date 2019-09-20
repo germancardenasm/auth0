@@ -1,0 +1,38 @@
+.navbar {
+	background: black;
+	color: white;
+	padding: 0 15px;
+	text-align: left;
+}
+
+.navbar ul {
+	display: flex;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.navbar__navitem {
+	height: 50px;
+
+	box-sizing: border-box;
+	font-weight: bold;
+}
+
+.navbar__navitem a {
+	text-decoration: none;
+	padding: 0 1rem;
+	height: 100%;
+	display: inline-flex;
+	align-items: center;
+	color: white;
+}
+
+.navbar__navitem a:visited {
+	color: white;
+}
+
+.navbar__navitem:hover,
+.navbar__navitem .active {
+	background: gray;
+}
